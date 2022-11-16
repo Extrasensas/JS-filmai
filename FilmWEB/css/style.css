@@ -1,0 +1,111 @@
+
+.main {
+    background-color: whitesmoke;
+    }
+
+.search-input input {
+    width: 400px;
+    height: 35px;
+    border-color: #e5e5da;
+    border-width: 3px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.search-button {
+    margin-top: 2px;
+    margin-left: 50px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search-button h3 {
+    margin-top: 2px;
+}
+
+.search {
+    width: 100%;
+    padding-top: 20px;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.notfound {
+    margin: 0 auto 20px;
+    width: 300px;
+    height: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    background-color: whitesmoke;
+
+}
+
+.notfound h2 {
+    margin: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.filmDiv {
+    margin: 5px auto 0;
+    width: 300px;
+    height: 550px;
+    background-color: gray;
+
+}
+
+.filmDiv h4 {
+    text-align: center;
+    font-family: monospace;
+    color: beige;
+}
+
+.watchButton h3 {
+    width: 100px;
+    height: 30px;
+    border-width: 3px;
+    text-align: center;
+    background-color: lightgreen;
+    margin: 0 auto;
+    font-size: 1em;
+    color: black;
+}
+
+.filmDiv img {
+    width: 300px;
+    height: 400px;
+}
+.filmDiv h4{
+    margin: 5px auto 0;
+}
+
+
+.watchButtonField {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 0;
+    padding-top: 2px;
+    width: 120px;
+    height: 50px;
+    background-color: lightgreen;
+}
+.watchButton {
+    margin: 0 auto;
+}
